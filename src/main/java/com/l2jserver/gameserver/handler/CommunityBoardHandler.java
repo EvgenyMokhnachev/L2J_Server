@@ -169,6 +169,11 @@ public final class CommunityBoardHandler implements IHandler<IParseBoardHandler,
 				cmd = "_bbsclan";
 				break;
 			}
+			case "Buffs":
+			{
+				cmd = "_bbsbuffs";
+				break;
+			}
 			default:
 			{
 				separateAndSend("<html><body><br><br><center>The command: " + url + " is not implemented yet.</center><br><br></body></html>", player);
