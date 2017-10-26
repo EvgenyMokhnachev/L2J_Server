@@ -50,6 +50,7 @@ public class ShowBoard extends L2GameServerPacket
 		writeS("bypass _bbsgetfav"); // favorite
 		writeS("bypass _bbsloc"); // region
 		writeS("bypass _bbsclan"); // clan
+		writeS("bypass _bbsbuffs"); // buffs
 		writeS("bypass _bbsmemo"); // memo
 		writeS("bypass _bbsmail"); // mail
 		writeS("bypass _bbsfriends"); // friends
